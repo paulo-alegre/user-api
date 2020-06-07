@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS users;
+
+ALTER DATABASE users
+  DEFAULT CHARACTER SET utf8
+  DEFAULT COLLATE utf8_general_ci;
+
+GRANT ALL PRIVILEGES ON users.* TO root@localhost IDENTIFIED BY 'userapi';
