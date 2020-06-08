@@ -1,6 +1,5 @@
 package com.cognizant.sg.userapi.exception;
 
-import com.cognizant.sg.userapi.enums.ErrorMessages;
 import com.cognizant.sg.userapi.model.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

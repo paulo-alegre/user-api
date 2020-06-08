@@ -1,4 +1,4 @@
-package com.cognizant.sg.userapi.enums;
+package com.cognizant.sg.userapi.exception;
 
 /**
  * Error Messages
